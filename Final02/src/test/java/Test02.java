@@ -42,4 +42,25 @@ public class Test02 {
         assertEquals(expectedResult,actualResult,0);
     }
 
+    @Test
+    public void test6(){
+        double actualResult =final02.final02(2,1,1,1,1);
+        double expectedResult =475;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
+    @Test
+    public void test7(){
+        double actualResult =final02.final02(2,2,2,1,1);
+        double expectedResult =640;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
+    @Test
+    public void test8(){
+        double actualResult =final02.final02(4,4,4,2,2);
+        double expectedResult =1280;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
 }

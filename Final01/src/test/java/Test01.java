@@ -49,4 +49,10 @@ public class Test01 {
         Long expectedResult =9999l;
         assertEquals(expectedResult,actualResult);
     }
+    @Test
+    public void test7(){
+        Long actualResult =final01.final1(653161544328834085l);
+        Long expectedResult =599999999999999999l;
+        assertEquals(expectedResult,actualResult);
+    }
 }
