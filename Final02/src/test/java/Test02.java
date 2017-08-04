@@ -35,6 +35,11 @@ public class Test02 {
         double expectedResult =420;
         assertEquals(expectedResult,actualResult,0);
     }
-
+    @Test
+    public void test5(){
+        double actualResult =final02.final02(1,1,1,1,1);
+        double expectedResult =375;
+        assertEquals(expectedResult,actualResult,0);
+    }
 
 }
