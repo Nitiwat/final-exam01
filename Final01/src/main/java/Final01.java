@@ -18,7 +18,7 @@ public class Final01 {
                 if (input/10<1){
                     return input;
                 }
-                Loop(x, input);
+                return Loop(x, input);
             }
         }
         return input;

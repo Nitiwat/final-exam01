@@ -4,13 +4,26 @@
 public class Final02 {
 
     public static double final02(int A,int B,int C,int D,int E) {
-        if (Check(A,B,C,D,E) == 1) {
-            return (A + B + C + D + E) * 100;
+        double total=0;
+        while (A>0||B>0||C>0||D>0||E>0) {
+            if (Check(A,B,C,D,E) == 1) {
+                total += (A + B + C + D + E) * 100;
+
+            }
+            if (Check(A,B,C,D,E) == 2) {
+                total += (A + B + C + D + E) * 100 * .95;
+            }
+            if (Check(A,B,C,D,E) == 3) {
+                total += (A + B + C + D + E) * 100 * 9;
+            }
+            if (Check(A,B,C,D,E) == 4) {
+                total += (A + B + C + D + E) * 100 * 8;
+            }
+            if (Check(A,B,C,D,E) == 5) {
+                total += (A + B + C + D + E) * 100 * 75;
+            }
         }
-        if (Check(A,B,C,D,E) == 2) {
-            return (A + B + C + D + E) * 100 * .95;
-        } else
-            return 0;
+             return total;
 
     }
 

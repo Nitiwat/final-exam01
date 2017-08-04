@@ -43,4 +43,10 @@ public class Test01 {
         assertEquals(expectedResult,actualResult);
     }
 
+    @Test
+    public void test6(){
+        Long actualResult =final01.final1(11110);
+        Long expectedResult =9999l;
+        assertEquals(expectedResult,actualResult);
+    }
 }

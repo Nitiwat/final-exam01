@@ -22,4 +22,19 @@ public class Test02 {
         assertEquals(expectedResult,actualResult,0);
     }
 
+    @Test
+    public void test3(){
+        double actualResult =final02.final02(1,1,1,0,1);
+        double expectedResult =320;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
+    @Test
+    public void test4(){
+        double actualResult =final02.final02(2,1,1,0,1);
+        double expectedResult =420;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
+
 }
