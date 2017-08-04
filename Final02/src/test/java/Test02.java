@@ -10,9 +10,16 @@ public class Test02 {
 
     @Test
     public void test1(){
-        int actualResult =final02.final02(1,0,0,0,0);
-        int expectedResult =100;
-        assertEquals(expectedResult,actualResult);
+        double actualResult =final02.final02(1,0,0,0,0);
+        double expectedResult =100;
+        assertEquals(expectedResult,actualResult,0);
+    }
+
+    @Test
+    public void test2(){
+        double actualResult =final02.final02(1,1,0,0,0);
+        double expectedResult =190;
+        assertEquals(expectedResult,actualResult,0);
     }
 
 }
